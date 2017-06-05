@@ -9,12 +9,29 @@
 /* Begin PBXBuildFile section */
 		964950341EDF0A8B00D32DD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964950331EDF0A8B00D32DD6 /* main.m */; };
 		964950371EDF0A8B00D32DD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 964950361EDF0A8B00D32DD6 /* AppDelegate.m */; };
-		9649503A1EDF0A8B00D32DD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964950391EDF0A8B00D32DD6 /* ViewController.m */; };
-		9649503D1EDF0A8B00D32DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9649503B1EDF0A8B00D32DD6 /* Main.storyboard */; };
-		9649503F1EDF0A8B00D32DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9649503E1EDF0A8B00D32DD6 /* Assets.xcassets */; };
 		964950421EDF0A8B00D32DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964950401EDF0A8B00D32DD6 /* LaunchScreen.storyboard */; };
 		9649504D1EDF0A8B00D32DD6 /* ITooKnowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9649504C1EDF0A8B00D32DD6 /* ITooKnowTests.m */; };
 		964950581EDF0A8B00D32DD6 /* ITooKnowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 964950571EDF0A8B00D32DD6 /* ITooKnowUITests.m */; };
+		9649506E1EDF0EDB00D32DD6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9649506C1EDF0EDB00D32DD6 /* MainViewController.m */; };
+		9649506F1EDF0EDB00D32DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9649506D1EDF0EDB00D32DD6 /* Main.storyboard */; };
+		964950711EDF0F0000D32DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964950701EDF0F0000D32DD6 /* Assets.xcassets */; };
+		964950751EDF0F7700D32DD6 /* QMNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 964950741EDF0F7700D32DD6 /* QMNetworkManager.m */; };
+		96CACE311EE357070087E76B /* CameraSessionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CACE181EE357070087E76B /* CameraSessionView.m */; };
+		96CACE321EE357070087E76B /* CameraDismissButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CACE1C1EE357070087E76B /* CameraDismissButton.m */; };
+		96CACE331EE357070087E76B /* CameraFlashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CACE1E1EE357070087E76B /* CameraFlashButton.m */; };
+		96CACE341EE357070087E76B /* CameraFocalReticule.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CACE201EE357070087E76B /* CameraFocalReticule.m */; };
+		96CACE351EE357070087E76B /* CameraShutterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CACE221EE357070087E76B /* CameraShutterButton.m */; };
+		96CACE361EE357070087E76B /* CameraToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CACE241EE357070087E76B /* CameraToggleButton.m */; };
+		96CACE371EE357070087E76B /* LaunchCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CACE261EE357070087E76B /* LaunchCameraButton.m */; };
+		96CACE381EE357070087E76B /* Cool Camera Mockup.sketch in Resources */ = {isa = PBXBuildFile; fileRef = 96CACE271EE357070087E76B /* Cool Camera Mockup.sketch */; };
+		96CACE391EE357070087E76B /* PaintCodeFile.pcvd in Resources */ = {isa = PBXBuildFile; fileRef = 96CACE281EE357070087E76B /* PaintCodeFile.pcvd */; };
+		96CACE3A1EE357070087E76B /* CameraStyleKitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CACE2B1EE357070087E76B /* CameraStyleKitClass.m */; };
+		96CACE3B1EE357070087E76B /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CACE2E1EE357070087E76B /* CaptureSessionManager.m */; };
+		96CACE3C1EE357070087E76B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CACE301EE357070087E76B /* Constants.m */; };
+		96CACE401EE362050087E76B /* ImagePreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CACE3F1EE362050087E76B /* ImagePreviewController.m */; };
+		96CACE421EE3885F0087E76B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CACE411EE3885F0087E76B /* AVFoundation.framework */; };
+		96CACE461EE392320087E76B /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CACE451EE392320087E76B /* TextViewController.m */; };
+		ABB3A7A11BCAA43804F02EEA /* libPods-ITooKnow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A487202A9E4EDDC9B6F126 /* libPods-ITooKnow.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		931AEC1B3EE584F992E36840 /* Pods-ITooKnow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITooKnow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ITooKnow/Pods-ITooKnow.debug.xcconfig"; sourceTree = "<group>"; };
 		9649502F1EDF0A8B00D32DD6 /* ITooKnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITooKnow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		964950331EDF0A8B00D32DD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		964950351EDF0A8B00D32DD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		964950361EDF0A8B00D32DD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		964950381EDF0A8B00D32DD6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		964950391EDF0A8B00D32DD6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9649503C1EDF0A8B00D32DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9649503E1EDF0A8B00D32DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		964950411EDF0A8B00D32DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		964950431EDF0A8B00D32DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		964950481EDF0A8B00D32DD6 /* ITooKnowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITooKnowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +65,43 @@
 		964950531EDF0A8B00D32DD6 /* ITooKnowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITooKnowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		964950571EDF0A8B00D32DD6 /* ITooKnowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITooKnowUITests.m; sourceTree = "<group>"; };
 		964950591EDF0A8B00D32DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9649506B1EDF0EDB00D32DD6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9649506C1EDF0EDB00D32DD6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9649506D1EDF0EDB00D32DD6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		964950701EDF0F0000D32DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		964950731EDF0F7700D32DD6 /* QMNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMNetworkManager.h; sourceTree = "<group>"; };
+		964950741EDF0F7700D32DD6 /* QMNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMNetworkManager.m; sourceTree = "<group>"; };
+		964950761EDF104F00D32DD6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		964950771EDF106600D32DD6 /* General.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = General.h; sourceTree = "<group>"; };
+		96A487202A9E4EDDC9B6F126 /* libPods-ITooKnow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ITooKnow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CACE171EE357070087E76B /* CameraSessionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraSessionView.h; sourceTree = "<group>"; };
+		96CACE181EE357070087E76B /* CameraSessionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraSessionView.m; sourceTree = "<group>"; };
+		96CACE1B1EE357070087E76B /* CameraDismissButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraDismissButton.h; sourceTree = "<group>"; };
+		96CACE1C1EE357070087E76B /* CameraDismissButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraDismissButton.m; sourceTree = "<group>"; };
+		96CACE1D1EE357070087E76B /* CameraFlashButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFlashButton.h; sourceTree = "<group>"; };
+		96CACE1E1EE357070087E76B /* CameraFlashButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFlashButton.m; sourceTree = "<group>"; };
+		96CACE1F1EE357070087E76B /* CameraFocalReticule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFocalReticule.h; sourceTree = "<group>"; };
+		96CACE201EE357070087E76B /* CameraFocalReticule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFocalReticule.m; sourceTree = "<group>"; };
+		96CACE211EE357070087E76B /* CameraShutterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraShutterButton.h; sourceTree = "<group>"; };
+		96CACE221EE357070087E76B /* CameraShutterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraShutterButton.m; sourceTree = "<group>"; };
+		96CACE231EE357070087E76B /* CameraToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraToggleButton.h; sourceTree = "<group>"; };
+		96CACE241EE357070087E76B /* CameraToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraToggleButton.m; sourceTree = "<group>"; };
+		96CACE251EE357070087E76B /* LaunchCameraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchCameraButton.h; sourceTree = "<group>"; };
+		96CACE261EE357070087E76B /* LaunchCameraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchCameraButton.m; sourceTree = "<group>"; };
+		96CACE271EE357070087E76B /* Cool Camera Mockup.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cool Camera Mockup.sketch"; sourceTree = "<group>"; };
+		96CACE281EE357070087E76B /* PaintCodeFile.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = PaintCodeFile.pcvd; sourceTree = "<group>"; };
+		96CACE2A1EE357070087E76B /* CameraStyleKitClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraStyleKitClass.h; sourceTree = "<group>"; };
+		96CACE2B1EE357070087E76B /* CameraStyleKitClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraStyleKitClass.m; sourceTree = "<group>"; };
+		96CACE2D1EE357070087E76B /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		96CACE2E1EE357070087E76B /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		96CACE2F1EE357070087E76B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		96CACE301EE357070087E76B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		96CACE3E1EE362050087E76B /* ImagePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePreviewController.h; sourceTree = "<group>"; };
+		96CACE3F1EE362050087E76B /* ImagePreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePreviewController.m; sourceTree = "<group>"; };
+		96CACE411EE3885F0087E76B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		96CACE441EE392320087E76B /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		96CACE451EE392320087E76B /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		9940A7FAD3DFFAA9F9B79969 /* Pods-ITooKnow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITooKnow.release.xcconfig"; path = "Pods/Target Support Files/Pods-ITooKnow/Pods-ITooKnow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +109,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96CACE421EE3885F0087E76B /* AVFoundation.framework in Frameworks */,
+				ABB3A7A11BCAA43804F02EEA /* libPods-ITooKnow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +131,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C1BA46B45F1D3A7F9CEA8BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				931AEC1B3EE584F992E36840 /* Pods-ITooKnow.debug.xcconfig */,
+				9940A7FAD3DFFAA9F9B79969 /* Pods-ITooKnow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93110F57619000C0BE8942B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96CACE411EE3885F0087E76B /* AVFoundation.framework */,
+				96A487202A9E4EDDC9B6F126 /* libPods-ITooKnow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		964950261EDF0A8B00D32DD6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +156,8 @@
 				9649504B1EDF0A8B00D32DD6 /* ITooKnowTests */,
 				964950561EDF0A8B00D32DD6 /* ITooKnowUITests */,
 				964950301EDF0A8B00D32DD6 /* Products */,
+				6C1BA46B45F1D3A7F9CEA8BE /* Pods */,
+				93110F57619000C0BE8942B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +176,12 @@
 			children = (
 				964950351EDF0A8B00D32DD6 /* AppDelegate.h */,
 				964950361EDF0A8B00D32DD6 /* AppDelegate.m */,
-				964950381EDF0A8B00D32DD6 /* ViewController.h */,
-				964950391EDF0A8B00D32DD6 /* ViewController.m */,
-				9649503B1EDF0A8B00D32DD6 /* Main.storyboard */,
-				9649503E1EDF0A8B00D32DD6 /* Assets.xcassets */,
 				964950401EDF0A8B00D32DD6 /* LaunchScreen.storyboard */,
-				964950431EDF0A8B00D32DD6 /* Info.plist */,
+				964950651EDF0EDB00D32DD6 /* Categories */,
+				964950661EDF0EDB00D32DD6 /* Classes */,
+				964950671EDF0EDB00D32DD6 /* Models */,
+				964950681EDF0EDB00D32DD6 /* Resources */,
+				964950691EDF0EDB00D32DD6 /* Scenes */,
 				964950321EDF0A8B00D32DD6 /* Supporting Files */,
 			);
 			path = ITooKnow;
@@ -117,7 +190,10 @@
 		964950321EDF0A8B00D32DD6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				964950431EDF0A8B00D32DD6 /* Info.plist */,
 				964950331EDF0A8B00D32DD6 /* main.m */,
+				964950761EDF104F00D32DD6 /* PrefixHeader.pch */,
+				964950771EDF106600D32DD6 /* General.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +216,153 @@
 			path = ITooKnowUITests;
 			sourceTree = "<group>";
 		};
+		964950651EDF0EDB00D32DD6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		964950661EDF0EDB00D32DD6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				964950721EDF0F2E00D32DD6 /* Network */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		964950671EDF0EDB00D32DD6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		964950681EDF0EDB00D32DD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				964950701EDF0F0000D32DD6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		964950691EDF0EDB00D32DD6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				96CACE431EE392270087E76B /* TextViewController */,
+				96CACE3D1EE361EE0087E76B /* ImagePreview */,
+				96CACE151EE357070087E76B /* iCamera */,
+				9649506A1EDF0EDB00D32DD6 /* Main */,
+				9649506D1EDF0EDB00D32DD6 /* Main.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9649506A1EDF0EDB00D32DD6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9649506B1EDF0EDB00D32DD6 /* MainViewController.h */,
+				9649506C1EDF0EDB00D32DD6 /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		964950721EDF0F2E00D32DD6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				964950731EDF0F7700D32DD6 /* QMNetworkManager.h */,
+				964950741EDF0F7700D32DD6 /* QMNetworkManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		96CACE151EE357070087E76B /* iCamera */ = {
+			isa = PBXGroup;
+			children = (
+				96CACE161EE357070087E76B /* Camera View */,
+				96CACE191EE357070087E76B /* Graphical Assets */,
+				96CACE2C1EE357070087E76B /* Model Classes */,
+			);
+			path = iCamera;
+			sourceTree = "<group>";
+		};
+		96CACE161EE357070087E76B /* Camera View */ = {
+			isa = PBXGroup;
+			children = (
+				96CACE171EE357070087E76B /* CameraSessionView.h */,
+				96CACE181EE357070087E76B /* CameraSessionView.m */,
+			);
+			path = "Camera View";
+			sourceTree = "<group>";
+		};
+		96CACE191EE357070087E76B /* Graphical Assets */ = {
+			isa = PBXGroup;
+			children = (
+				96CACE1A1EE357070087E76B /* CameraViewComponents */,
+				96CACE271EE357070087E76B /* Cool Camera Mockup.sketch */,
+				96CACE281EE357070087E76B /* PaintCodeFile.pcvd */,
+				96CACE291EE357070087E76B /* UI Assets */,
+			);
+			path = "Graphical Assets";
+			sourceTree = "<group>";
+		};
+		96CACE1A1EE357070087E76B /* CameraViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				96CACE1B1EE357070087E76B /* CameraDismissButton.h */,
+				96CACE1C1EE357070087E76B /* CameraDismissButton.m */,
+				96CACE1D1EE357070087E76B /* CameraFlashButton.h */,
+				96CACE1E1EE357070087E76B /* CameraFlashButton.m */,
+				96CACE1F1EE357070087E76B /* CameraFocalReticule.h */,
+				96CACE201EE357070087E76B /* CameraFocalReticule.m */,
+				96CACE211EE357070087E76B /* CameraShutterButton.h */,
+				96CACE221EE357070087E76B /* CameraShutterButton.m */,
+				96CACE231EE357070087E76B /* CameraToggleButton.h */,
+				96CACE241EE357070087E76B /* CameraToggleButton.m */,
+				96CACE251EE357070087E76B /* LaunchCameraButton.h */,
+				96CACE261EE357070087E76B /* LaunchCameraButton.m */,
+			);
+			path = CameraViewComponents;
+			sourceTree = "<group>";
+		};
+		96CACE291EE357070087E76B /* UI Assets */ = {
+			isa = PBXGroup;
+			children = (
+				96CACE2A1EE357070087E76B /* CameraStyleKitClass.h */,
+				96CACE2B1EE357070087E76B /* CameraStyleKitClass.m */,
+			);
+			path = "UI Assets";
+			sourceTree = "<group>";
+		};
+		96CACE2C1EE357070087E76B /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				96CACE2D1EE357070087E76B /* CaptureSessionManager.h */,
+				96CACE2E1EE357070087E76B /* CaptureSessionManager.m */,
+				96CACE2F1EE357070087E76B /* Constants.h */,
+				96CACE301EE357070087E76B /* Constants.m */,
+			);
+			path = "Model Classes";
+			sourceTree = "<group>";
+		};
+		96CACE3D1EE361EE0087E76B /* ImagePreview */ = {
+			isa = PBXGroup;
+			children = (
+				96CACE3E1EE362050087E76B /* ImagePreviewController.h */,
+				96CACE3F1EE362050087E76B /* ImagePreviewController.m */,
+			);
+			path = ImagePreview;
+			sourceTree = "<group>";
+		};
+		96CACE431EE392270087E76B /* TextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				96CACE441EE392320087E76B /* TextViewController.h */,
+				96CACE451EE392320087E76B /* TextViewController.m */,
+			);
+			path = TextViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +370,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9649505C1EDF0A8B00D32DD6 /* Build configuration list for PBXNativeTarget "ITooKnow" */;
 			buildPhases = (
+				FE2CC0EF8EBBD0AC1D62BC10 /* [CP] Check Pods Manifest.lock */,
 				9649502B1EDF0A8B00D32DD6 /* Sources */,
 				9649502C1EDF0A8B00D32DD6 /* Frameworks */,
 				9649502D1EDF0A8B00D32DD6 /* Resources */,
+				7287776EB65C7C01B63EC3ED /* [CP] Embed Pods Frameworks */,
+				C752DFB2AD4B08A571535901 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,9 +475,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9649506F1EDF0EDB00D32DD6 /* Main.storyboard in Resources */,
+				964950711EDF0F0000D32DD6 /* Assets.xcassets in Resources */,
+				96CACE391EE357070087E76B /* PaintCodeFile.pcvd in Resources */,
+				96CACE381EE357070087E76B /* Cool Camera Mockup.sketch in Resources */,
 				964950421EDF0A8B00D32DD6 /* LaunchScreen.storyboard in Resources */,
-				9649503F1EDF0A8B00D32DD6 /* Assets.xcassets in Resources */,
-				9649503D1EDF0A8B00D32DD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +499,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7287776EB65C7C01B63EC3ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ITooKnow/Pods-ITooKnow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C752DFB2AD4B08A571535901 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ITooKnow/Pods-ITooKnow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE2CC0EF8EBBD0AC1D62BC10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9649502B1EDF0A8B00D32DD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9649503A1EDF0A8B00D32DD6 /* ViewController.m in Sources */,
+				964950751EDF0F7700D32DD6 /* QMNetworkManager.m in Sources */,
+				96CACE311EE357070087E76B /* CameraSessionView.m in Sources */,
+				96CACE331EE357070087E76B /* CameraFlashButton.m in Sources */,
+				96CACE461EE392320087E76B /* TextViewController.m in Sources */,
+				96CACE351EE357070087E76B /* CameraShutterButton.m in Sources */,
+				96CACE3A1EE357070087E76B /* CameraStyleKitClass.m in Sources */,
+				96CACE3C1EE357070087E76B /* Constants.m in Sources */,
+				96CACE371EE357070087E76B /* LaunchCameraButton.m in Sources */,
+				96CACE361EE357070087E76B /* CameraToggleButton.m in Sources */,
+				96CACE341EE357070087E76B /* CameraFocalReticule.m in Sources */,
 				964950371EDF0A8B00D32DD6 /* AppDelegate.m in Sources */,
+				96CACE3B1EE357070087E76B /* CaptureSessionManager.m in Sources */,
+				96CACE321EE357070087E76B /* CameraDismissButton.m in Sources */,
+				9649506E1EDF0EDB00D32DD6 /* MainViewController.m in Sources */,
 				964950341EDF0A8B00D32DD6 /* main.m in Sources */,
+				96CACE401EE362050087E76B /* ImagePreviewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +603,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9649503B1EDF0A8B00D32DD6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9649503C1EDF0A8B00D32DD6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		964950401EDF0A8B00D32DD6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -355,9 +636,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Thong Mee Ho (6ATV26A86Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Thong Mee Ho (6ATV26A86Y)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6ATV26A86Y;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -404,9 +687,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Thong Mee Ho (6ATV26A86Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Thong Mee Ho (6ATV26A86Y)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6ATV26A86Y;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -427,25 +712,40 @@
 		};
 		9649505D1EDF0A8B00D32DD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931AEC1B3EE584F992E36840 /* Pods-ITooKnow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Thong Mee Ho (6ATV26A86Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 6ATV26A86Y;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ITooKnow/PrefixHeader.pch;
 				INFOPLIST_FILE = ITooKnow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ocr.ITooKnow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		9649505E1EDF0A8B00D32DD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9940A7FAD3DFFAA9F9B79969 /* Pods-ITooKnow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Thong Mee Ho (6ATV26A86Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 6ATV26A86Y;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ITooKnow/PrefixHeader.pch;
 				INFOPLIST_FILE = ITooKnow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ocr.ITooKnow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -518,6 +818,7 @@
 				9649505E1EDF0A8B00D32DD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9649505F1EDF0A8B00D32DD6 /* Build configuration list for PBXNativeTarget "ITooKnowTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +827,7 @@
 				964950611EDF0A8B00D32DD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		964950621EDF0A8B00D32DD6 /* Build configuration list for PBXNativeTarget "ITooKnowUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +836,7 @@
 				964950641EDF0A8B00D32DD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
